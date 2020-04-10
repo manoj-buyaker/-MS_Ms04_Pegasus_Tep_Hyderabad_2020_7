@@ -1,5 +1,11 @@
 # Milestone-4: Card game
 
+
+My team members:
+1. vellanki saranya
+2. sadhana butreddy
+3. manoj
+
 ## Learning Competencies
 By the end of this milestone ensure that you
  - [ ] write tests for any program you are ever going to build
