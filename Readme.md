@@ -1,10 +1,40 @@
-# Milestone-4: Card game
+# WAR CARD GAME: 
+
+# RULES:
+War Card game Algorithm: 
+
+2 players (player 1 and player 2, 1 deck (52 cards)
+1. Shuffle the deck
+2. Separate the deck into two decks
+3. Each player holds one deck
+4. Both players reveal the top card of their decks and place them to the desk
+5. Compare players’ card value (Do not consider the color and pattern)
+6. The player who have the higher value revealed card takes both cards on the desk and place those
+cards facing down at the bottom of his/her own deck
+7. If player 1 and 2 revealed cards with same value, means “the war begins”
+8. When the war begins, both players put next two cards from the top of his/her own deck on the desk
+and reveal the second card
+9. Compare the cards’ value
+10. If player 1 second revealed card has a higher value than player 2, player 1 takes all cards on the desk,
+face them down and then put them on the bottom of his/her own deck
+11. If player 2 second revealed card has a higher value than player 1, player 2 takes all cards on the desk,
+face them down and then put them on the bottom of his/her own deck
+12. If player 1 and 2 second revealed cards still have the same value, back to No.7 step and continue. The
+repetition will stop until one player revealed card have a higher value than another player.
+13. The player who win the “war”, takes all cards on the desk, face them down and put them to the
+bottom of his/her own deck
+14. The players continue to reveal the top card of their deck
+15. The game will continue until there is winner
+16. The player who first win all 52 cards is the winner
+17. If one player is not able to complete the “war” (do not have enough cards to complete the “war”),
+this player loses the game, and the other player wins
 
 
 My team members:
-1. vellanki saranya
-2. sadhana butreddy
-3. manoj
+
+1. Vellanki saranya
+2. Sadhana butreddy
+3. Manoj
 
 ## Learning Competencies
 By the end of this milestone ensure that you
