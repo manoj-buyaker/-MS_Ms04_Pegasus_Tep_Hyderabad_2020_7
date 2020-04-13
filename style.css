@@ -55,7 +55,7 @@
   /*make it centered?  */
   text-align: center;
   color: white;
-  background-color: red;
+  background-color: rgb(255, 94, 0);
   padding: 10px;
 }
 .btn{
@@ -68,10 +68,10 @@
   text-shadow: 1px 1px #000;
 }
 #btnBattle{
-  background-color: rgb(201, 83, 83);
+  background-color: red;
 }
 #btnBattle10{
-  background-color: blue;
+  background-color:red;
 }
 .p1{
   color:rgb(226, 37, 12)
@@ -83,7 +83,7 @@
 }
 #board{
   background-color:rgb(20, 102, 34);
-  transition: background-image 0.2s ease-in-out;
+
   
 }
 body{
