@@ -55,7 +55,7 @@
   /*make it centered?  */
   text-align: center;
   color: white;
-  background-color: black;
+  background-color: red;
   padding: 10px;
 }
 .btn{
@@ -73,3 +73,22 @@
 #btnBattle10{
   background-color: blue;
 }
+.p1{
+  color:rgb(226, 37, 12)
+}
+
+.p2{
+  color:rgb(226, 37, 12)
+  
+}
+#board{
+  background-color:rgb(20, 102, 34);
+  transition: background-image 0.2s ease-in-out;
+  
+}
+body{
+  background-image: url("war.png");
+
+}
+
+
