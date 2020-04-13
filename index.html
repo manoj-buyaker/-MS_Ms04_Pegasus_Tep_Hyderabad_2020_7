@@ -1,48 +1,31 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-  <title>War Card Game</title>
+<title>War Card Game</title>
+<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
   <div id="wrapper">
-    <div id="start"></div>
-    <div id="message"></div>
+    <div id="message">Click "Fight" to start!</div>
     <div id="board">
       <div id="player1" class="players">
-        <div class="score"></div>
+        <div>SCORE:   <span class="score"></span></div>
         <div class="hand"></div>
       </div>
       <div id="player2" class="players">
-        <div class="score"></div>
+        <div>SCORE:   <span class="score"></span></div>
         <div class="hand"></div>
       </div>
       <div id="action">
         <button id="btnBattle" type="button" class="btn">Fight</button>
+        <button id="btnBattle10" type="button" class="btn">10 Rounds</button>
+      
       </div>
     </div>
   </div>
-  <script>
-    var suits = ["spades", "hearts", "clubs", "diams"];
-    var cardFace = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"];
-    var cards = [];
-    var players = [[],[]];
-    var firstRun = true;
-    var fightButton = document.querySelector("#btnBattle");
 
-    //event listeners
-    fightButton.addEventListener('click',battle);
-
-    //functions
-    function battle() {
-      if(firstRun){
-        firstRun = false;
-       
-      }
-      console.log('works');
-    }
-  
-
-  
-  </script>
+  <script src="script.js"> </script>
 </body>
 </html>
